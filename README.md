@@ -42,3 +42,8 @@ Option|Description
 ## Create an issue for any recommendations or requests please!
 
 [mm]: https://github.com/MichMich/MagicMirror
+
+### Other Notes
+
+Need to install Python3 and set it as default.
+Need to install the Python MFP module.

@@ -1,5 +1,5 @@
 var NodeHelper = require('node_helper');
-var PythonShell = require('python-shell');
+var {PythonShell} = require('python-shell');
 var colors = require('colors');
 
 module.exports = NodeHelper.create({
@@ -24,7 +24,7 @@ module.exports = NodeHelper.create({
 		var options = {
 			mode: 'json',
 			pythonPath: '/usr/bin/python',
-			scriptPath: './modules/MMM-MyFitnessPal/python',
+			scriptPath: './modules/MMM-MFP/python',
 			// scriptPath: '/home/pi/MagicMirror/modules/MMM-MyFitnessPal',
 			args: [payload.user, payload.passw]
 		}
